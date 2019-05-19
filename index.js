@@ -29,7 +29,7 @@ miner.on('logs', (arg) => {
 	console.log(...arg);
 }).start().then(() => {
 	console.log('Thiet lap thanh cong !');
-	console.log('Banano miner by anzerr - edit by sgorki (To Quang Thang)');
+	console.log('Banano miner by Anzerr - Edit boi Rek-kun from HCSA');
 }).catch((e) => {
 	console.log(e);
 	process.exit(1);
